@@ -1,0 +1,97 @@
+html{
+    background-color: white;
+}
+
+#wrapper{
+    margin-top: -5px;
+
+}
+
+#homeImage,#signInImage{
+    width: 260px;
+    height:260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display:block;
+    width: auto;
+}
+
+#signInImage{
+    margin-top:12%;
+}
+
+#appTitle,#endTitle,#thankYouMsg{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Montserrat';
+}
+
+#endTitle{
+    margin-top: 28px;
+}
+
+#thankYouMsg,#user{
+    font-size:20px;
+    margin-top: 20px;
+
+}
+
+#name,#password,#submitButton{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 528px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 7px;
+    border-width: 1px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: gainsboro;
+}
+
+
+#password{
+    transform:translate(0px,-16px);
+    margin-top: 30px;
+}
+
+#err1,#err2{
+    display:block;
+    visibility: hidden;
+    padding-top:7px;
+    margin-left: 31.5%;
+    color: #DD0000;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    
+}
+
+#err2{
+    margin-top: 0px;
+    transform:translate(0px,-15px);
+}
+
+
+#submitButton{
+    display: block;
+    margin-top: 16px;
+    width: 198px;
+    background-color: #54A0F1;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#user{
+    color: #1979a9;
+
+
+}

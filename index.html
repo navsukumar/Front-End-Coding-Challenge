@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "em">
+    <head>
+        <title> Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="styling.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body> 
+        <div id = 'wrapper' name = 'wrapper'>
+            <img src = "images/stars-bear.png" id = "homeImage">
+            <span id = "appTitle"> <b>Join Us at sproul.club!</b></span>
+
+            <form id = "signUpForm" onsubmit = "return false">
+                <input type = 'text' id = 'name' name = 'name' placeholder="Your name (maximum 40 characters)" max = 40> 
+                <span id = "err1"> Field Left incomplete!</span>
+                <input type = 'password' id = 'password' name = 'password' placeholder="Enter password"> 
+                <span id = "err2"> Password is incorrect!</span>
+                <input type = 'submit' id = "submitButton" name = 'submitButton' value = 'Send'>
+            </form>
+
+        </div>    
+        <script src = "javascript.js"> </script>
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
