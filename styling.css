@@ -4,7 +4,6 @@ html{
 
 #wrapper{
     margin-top: -5px;
-
 }
 
 #homeImage,#signInImage{
@@ -56,6 +55,15 @@ html{
     border-color: gainsboro;
 }
 
+#submitButton{
+    display: block;
+    margin-top: 16px;
+    width: 198px;
+    background-color: #54A0F1;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+}
 
 #password{
     transform:translate(0px,-16px);
@@ -70,7 +78,6 @@ html{
     color: #DD0000;
     font-size: 12px;
     font-family: 'Montserrat';
-    
 }
 
 #err2{
@@ -78,20 +85,6 @@ html{
     transform:translate(0px,-15px);
 }
 
-
-#submitButton{
-    display: block;
-    margin-top: 16px;
-    width: 198px;
-    background-color: #54A0F1;
-    border-color: white;
-    color: white;
-    border-radius: 10px;
-    
-}
-
 #user{
     color: #1979a9;
-
-
 }
